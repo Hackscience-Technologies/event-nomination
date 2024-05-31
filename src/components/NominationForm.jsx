@@ -58,7 +58,7 @@ const NominationForm = () => {
 
   return (
     <form id="pay-form" method="post" onSubmit={handleSubmit}>
-      <b><h2>{EVENT_NAME} Nominations</h2></b>
+      <b><h2>{EVENT_NAME} NOMINATIONS</h2></b>
       <p>Categories</p>
       <select className="inputbox" name="category_id" required>
         <option value="">Select Category</option>
